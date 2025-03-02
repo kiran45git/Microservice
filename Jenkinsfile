@@ -1,6 +1,8 @@
 pipeline {
     agent any
 
+    
+
     stages {
         stage('deploy to k8s') {
             steps {
